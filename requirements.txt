@@ -1,0 +1,39 @@
+
+# ==========================================
+# Enterprise AI Support Copilot
+# Python 3.11
+# ==========================================
+
+# LangChain and LangGraph
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langgraph
+
+# Google Gemini
+langchain-google-genai
+
+# Open AI
+langchain-openai
+
+# RAG and Vector Database
+sentence-transformers
+chromadb
+langchain-chroma
+
+# Document Loaders
+pypdf
+docx2txt
+
+# Data Validation
+pydantic
+
+# Environment Configuration
+python-dotenv
+
+# Frontend
+streamlit
+
+# Testing
+pytest
