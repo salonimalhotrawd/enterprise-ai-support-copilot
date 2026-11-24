@@ -222,17 +222,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-
 # =====================================
 # Enterprise AI Support Copilot
 # =====================================
 
 # Virtual environment
-.venv/
 myenv/
 
 # Environment variables
-.env
 .env.*
 
 # Keep example environment file in GitHub
@@ -249,9 +246,5 @@ chroma_db/
 # Generated logs
 logs/
 
-# IDE settings
-.vscode/
-
 # Streamlit secrets
 .streamlit/secrets.toml
-

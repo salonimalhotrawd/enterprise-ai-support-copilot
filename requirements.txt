@@ -11,10 +11,8 @@ langchain-community
 langchain-text-splitters
 langgraph
 
-# Google Gemini
+# LLM Providers
 langchain-google-genai
-
-# Open AI
 langchain-openai
 
 # RAG and Vector Database

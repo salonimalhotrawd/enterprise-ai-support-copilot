@@ -1,0 +1,39 @@
+
+{
+    "llm": {
+        "provider": "google",
+        "models": {
+            "google": "gemini-2.5-flash",
+            "openai": "gpt-4o-mini"
+        },
+        "temperature": 0.2
+    },
+
+    "embeddings": {
+        "provider": "sentence-transformers",
+        "model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+
+    "rag": {
+        "chunk_size": 500,
+        "chunk_overlap": 100,
+        "retrieval_k": 4
+    },
+
+    "vector_store": {
+        "provider": "chroma",
+        "persist_directory": "./chroma_db",
+        "collection_name": "it_knowledge_base"
+    },
+
+    "database": {
+        "type": "sqlite",
+        "path": "./data/support_tickets.db"
+    },
+
+    "application": {
+        "name": "Enterprise AI Support Copilot",
+        "environment": "development",
+        "log_level": "INFO"
+    }
+}
